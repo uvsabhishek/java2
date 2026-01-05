@@ -1,0 +1,9 @@
+name: abhishek
+on:
+  push:
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: this will print hello
+      run: echo hello
